@@ -1,0 +1,50 @@
+li {
+  color: darkgray
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.instructor {
+  background-color: lightyellow
+}
+
+.absent {
+  color: red;
+}
+
+.present {
+  color: green;
+}
+
+.time {
+  background-color: silver
+}
+
+.space {
+  background-color: lightskyblue
+}
+
+
+.present p {
+  color: greenyellow
+}
+
+.absent p {
+  color: red
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 0.5em;
+  display: inline-block;
+  width: 250px;
+}
+
+button {
+  margin: 5px
+}
